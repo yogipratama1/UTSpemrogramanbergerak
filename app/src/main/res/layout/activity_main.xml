@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <TextView
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"
+            android:textStyle="bold"
+            android:text="Nama Mahasiswa :"
+            tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/namamahasiswa"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="(Nama Lengkap)"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="203dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Nilai Project :"
+        android:textColor="#0000FF"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="45dp"
+        tools:ignore="MissingConstraints" />
+
+        <RadioGroup
+            android:id="@+id/rbgrup"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            tools:layout_editor_absoluteX="203dp"
+            tools:layout_editor_absoluteY="43dp"
+            tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A" />
+
+            <RadioButton
+                android:id="@+id/B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B" />
+
+        <RadioButton
+            android:id="@+id/C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C" />
+
+        <RadioButton
+            android:id="@+id/E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nilai Tugas :"
+        android:textColor="#0000FF"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="96dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/nilaitugas"
+        android:layout_width="200dp"
+        android:layout_height="42dp"
+        android:inputType="number"
+        android:text="0"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="84dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nilai UTS :"
+        android:textColor="#0000FF"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="138dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/nilaiuts"
+        android:layout_width="211dp"
+        android:layout_height="43dp"
+        android:inputType="number"
+        android:text="0"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="133dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nilai UAS :"
+        android:textColor="#0000FF"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="183dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/nilaiuas"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="0"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="183dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/tombol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HITUNG"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="228dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/namamhs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Mahasiswa ="
+        android:textColor="#2F4F4F"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="285dp"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
